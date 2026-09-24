@@ -1,56 +1,81 @@
 
 body{
+  zoom: 100%;
   margin: 0;
+  background-color:rgb(20, 22, 20);
+  color: white;
 }
 
 *{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: serif;
   box-sizing: border-box;
 }
 
-
+h1{
+  color:rgb(79, 136, 201);
+}
 .topnav a{
   float: left;
   display: block;
-  color: black;
+  color: rgb(180, 213, 232);
   text-align:center;
   padding: 14px 16px;
   font-size: 17px;
   text-decoration: none;
 }
 .topnav a:hover{
-  background-color: rgb(155, 155, 155);
+  background-color: rgb(64, 94, 128);
 }
 .topnav a.active{
   background-color: rgb(79, 136, 201);
 }
-.topnav input[type=text]{
+.topnav{
+  background-color: rgb(47, 47, 47);
+  overflow:hidden;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+input[type=text]{
   padding: 6px 6px 6px 6px;
   border: none;
   margin-top: 10px;
   border-radius: 5px 0px 0px 5px;
-  background-color: rgb(155,155,155);
-  color: white;
+  background-color: white;
+  color: rgb(20, 22, 20);
+  min-width: 300px;
 }
-.topnav{
-  background-color: rgb(200,200,200);
-  overflow:hidden;
-}
-
 search{
   float:left;
   margin-right: 10px;
+
 }
 
 search button{
   margin: 0;
-  border-radius: 0;
+  border-radius: 0px 5px 5px 0px;
   border: none; 
   padding: 6px;
 }
 
-
-.pagecontent{
+#pagecontent{
   margin: 20px 50px 20px 50px;
 
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li a{
+  color: white;
+}
+li p{
+  color:rgb(142, 142, 142);
+  font-size: 12px;
+  margin: 0;
+}
+
+a{
+  color:rgb(79, 136, 201);
 }

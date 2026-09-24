@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ScienceOcean</title>
+    <title>The Science Reef</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a class="active" href="index.html">Home <i class="fas fa-home fa-xs"></i></a>
+      <a href="about.html">About <i class="fas fa-info fa-xs"></i></a>
+      <a href="contribute.html">Contribute <i class="fas fa-code fa-xs"></i></a>
     </div>
-    <div class="pagecontent">
+    <div id="pagecontent">
       <section id="home">
-        <h1>Home</h1>
+        <h1>The Science Reef</h1> 
         <search>
-        <input id="searchbar" type="text" placeholder="Search..">
-        <button onclick="SearchForArticles()">search</button>
-      </search>
+          <input id="searchbar" type="text" placeholder="Search for an article, author or subject"> 
+          <button onclick="SearchForArticles()"><i class="fas fa-book"></i></button>
+        </search>
       </section>
       
       <script src="script.js"></script>
+      <script src="https://kit.fontawesome.com/f70a138c49.js" crossorigin="anonymous"></script>
     </div>
   </body>
 </html>
