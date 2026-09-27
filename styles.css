@@ -76,6 +76,10 @@ li p{
   margin: 0;
 }
 
-a{
+#bluelink{
   color:rgb(79, 136, 201);
+}
+
+a{
+  color: white;
 }
